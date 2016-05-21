@@ -2,7 +2,7 @@
 
 unicode-loose-match is a JavaScript implementation of [UAX44-LM3](http://unicode.org/reports/tr44/tr44-16.html#Matching_Symbolic), i.e. the loose matching algorithm for symbolic values as defined in the Unicode Standard.
 
-It’s based on [the data for Unicode v8.0.0](https://github.com/mathiasbynens/unicode-8.0.0).
+It’s based on [the data for Unicode v8.0.0](https://github.com/mathiasbynens/unicode-8.0.0) and recognizes [property aliases](https://github.com/mathiasbynens/unicode-property-aliases) and [property value aliases](https://github.com/mathiasbynens/unicode-property-value-aliases).
 
 ## Installation
 
@@ -22,17 +22,20 @@ const matchLoosely = require('unicode-loose-match');
 
 This module exports a single function named `matchLoosely`.
 
-### `matchLoosely(type, input)`
+### `matchLoosely(propertyInput, [valueInput])`
 
-This function takes a string `input` and applies loose matching on it within the list of all Unicode property values of type `type`.
+This function takes two strings `propertyInput` and `valueInput` and applies loose matching on the property-value pair within the list of all Unicode property values. `valueInput` is optional.
 
-`type` must be one of `'blocks'`, `'categories'`, `'properties'`, or `'scripts'`.
-
-The return value is a string containing the canonical match if one is found, and `false` otherwise.
+The return value is an object containing containing the canonical property name `property` and the canonical property value name `value`. If an unknown `propertyInput` is given, an exception is thrown.
 
 ```js
-matchLoosely('scripts', 'CaNaDiAn-aBOrI_gIn AL');
-// → 'Canadian_Aboriginal'
+// Find the canonical property name and property value name:
+matchLoosely('blk', 'Arabic_PF_B')
+// → { 'property': 'Block', 'value': 'Arabic_Presentation_Forms_B' }
+
+// Find the canonical property name:
+matchLoosely('compex')
+// → { 'property': 'Full_Composition_Exclusion' }
 ```
 
 ## Author

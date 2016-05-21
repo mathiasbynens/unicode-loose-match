@@ -1,41 +1,33 @@
 import test from 'ava';
 import matchLoosely from '../index.js';
 
-test(async t => {
-	t.is(
-		matchLoosely('blocks', 'is_latin_extended_a'),
-		'Latin Extended-A'
+test(t => {
+	t.deepEqual(
+		matchLoosely('blk', 'latin_extended_a'),
+		{ 'property': 'Block', 'value': 'Latin Extended-A' }
 	);
-	t.is(
-		matchLoosely('blocks', 'latin69supplement'),
-		false
+	t.deepEqual(
+		matchLoosely('block', 'Arabic_PF_B'),
+		{ 'property': 'Block', 'value': 'Arabic_Presentation_Forms_B' }
 	);
-	t.is(
-		matchLoosely('categories', 'zs'),
-		'Zs'
+	t.deepEqual(
+		matchLoosely('block', 'arabic p-fb'),
+		{ 'property': 'Block', 'value': 'Arabic_Presentation_Forms_B' }
 	);
-	t.is(
-		matchLoosely('categories', 'xx'),
-		false
+	t.deepEqual(
+		matchLoosely('block', 'unknown value'),
+		{ 'property': 'Block' }
 	);
-	t.is(
-		matchLoosely('properties', 'other idcontinue'),
-		'Other_ID_Continue'
+	t.deepEqual(
+		matchLoosely('isc'),
+		{ 'property': 'ISO_Comment' }
 	);
-	t.is(
-		matchLoosely('properties', 'Other_ID_Lolwat'),
-		false
-	);
-	t.is(
-		matchLoosely('scripts', 'CaNaDiAn-aBOrI_gIn AL'),
-		'Canadian_Aboriginal'
-	);
-	t.is(
-		matchLoosely('scripts', 'Icelandic-aBOrI_gIn AL'),
-		false
+	t.deepEqual(
+		matchLoosely('compex'),
+		{ 'property': 'Full_Composition_Exclusion' }
 	);
 	t.throws(
-		() => matchLoosely('yolo', 'ASCII'),
+		() => matchLoosely('unknown property', 'unknown value'),
 		Error
 	);
 });

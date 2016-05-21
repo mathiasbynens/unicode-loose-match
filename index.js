@@ -1,23 +1,38 @@
 'use strict';
 
-const MAPS = require('./data/maps.js');
+const mappings = require('./data/mappings.js');
+const aliasToProperty = mappings.aliasToProperty;
+const propertyToValueAliases = mappings.propertyToValueAliases;
 
-const matchLoosely = function(type, input) {
-	const stripped = input
+const normalize = function(string) {
+	const normalized = string
 		// Remove case distinctions.
 		.toLowerCase()
 		// Remove whitespace.
 		.replace(/\s/g, '')
 		// Remove `-` and `_`.
-		.replace(/[-_]/g, '')
-		// Remove `is` prefix.
-		.replace(/^is/g, '');
-	const map = MAPS[type];
-	if (!map) {
-		throw new Error(`Invalid type: ${type}`);
+		.replace(/[-_]/g, '');
+	return normalized;
+};
+
+const matchLoosely = function(property, value) {
+	const normalizedProperty = normalize(property);
+	const canonicalProperty = aliasToProperty.get(normalizedProperty);
+	if (!canonicalProperty) {
+		throw new Error(`Unknown property: ${ property }`);
 	}
-	const match = map.get(stripped);
-	return match || false;
+	const aliasToValue = propertyToValueAliases.get(canonicalProperty);
+	const result = {
+		'property': canonicalProperty
+	};
+	if (value) {
+		const normalizedValue = normalize(value);
+		const canonicalValue = aliasToValue.get(normalizedValue);
+		if (canonicalValue) {
+			result.value = canonicalValue;
+		}
+	}
+	return result;
 };
 
 module.exports = matchLoosely;

@@ -32,5 +32,10 @@
   "scripts": {
     "build": "node scripts/generate.js",
     "test": "ava ./tests"
+  },
+  "dependencies": {
+    "jsesc": "^1.2.0",
+    "unicode-property-aliases": "^1.0.0",
+    "unicode-property-value-aliases": "^1.0.1"
   }
 }
