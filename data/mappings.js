@@ -921,16 +921,16 @@ module.exports = {
 			'Expands_On_NFKD'
 		],
 		[
+			'ascii',
+			'ASCII'
+		],
+		[
 			'any',
 			'Any'
 		],
 		[
 			'assigned',
 			'Assigned'
-		],
-		[
-			'ascii',
-			'ASCII'
 		]
 	]),
 	'propertyToValueAliases': new Map([
