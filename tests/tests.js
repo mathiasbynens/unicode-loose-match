@@ -4,7 +4,7 @@ import matchLoosely from '../index.js';
 test(t => {
 	t.deepEqual(
 		matchLoosely('blk', 'latin_extended_a'),
-		{ 'property': 'Block', 'value': 'Latin Extended-A' }
+		{ 'property': 'Block', 'value': 'Latin_Extended-A' }
 	);
 	t.deepEqual(
 		matchLoosely('block', 'Arabic_PF_B'),

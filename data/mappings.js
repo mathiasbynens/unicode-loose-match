@@ -1830,7 +1830,7 @@ module.exports = {
 			new Map([
 				[
 					'aegeannumbers',
-					'Aegean Numbers'
+					'Aegean_Numbers'
 				],
 				[
 					'ahom',
@@ -1842,7 +1842,7 @@ module.exports = {
 				],
 				[
 					'alchemicalsymbols',
-					'Alchemical Symbols'
+					'Alchemical_Symbols'
 				],
 				[
 					'alphabeticpf',
@@ -1850,11 +1850,11 @@ module.exports = {
 				],
 				[
 					'alphabeticpresentationforms',
-					'Alphabetic Presentation Forms'
+					'Alphabetic_Presentation_Forms'
 				],
 				[
 					'anatolianhieroglyphs',
-					'Anatolian Hieroglyphs'
+					'Anatolian_Hieroglyphs'
 				],
 				[
 					'ancientgreekmusic',
@@ -1862,15 +1862,15 @@ module.exports = {
 				],
 				[
 					'ancientgreekmusicalnotation',
-					'Ancient Greek Musical Notation'
+					'Ancient_Greek_Musical_Notation'
 				],
 				[
 					'ancientgreeknumbers',
-					'Ancient Greek Numbers'
+					'Ancient_Greek_Numbers'
 				],
 				[
 					'ancientsymbols',
-					'Ancient Symbols'
+					'Ancient_Symbols'
 				],
 				[
 					'arabic',
@@ -1882,7 +1882,7 @@ module.exports = {
 				],
 				[
 					'arabicextendeda',
-					'Arabic Extended-A'
+					'Arabic_Extended-A'
 				],
 				[
 					'arabicmath',
@@ -1890,7 +1890,7 @@ module.exports = {
 				],
 				[
 					'arabicmathematicalalphabeticsymbols',
-					'Arabic Mathematical Alphabetic Symbols'
+					'Arabic_Mathematical_Alphabetic_Symbols'
 				],
 				[
 					'arabicpfa',
@@ -1898,7 +1898,7 @@ module.exports = {
 				],
 				[
 					'arabicpresentationformsa',
-					'Arabic Presentation Forms-A'
+					'Arabic_Presentation_Forms-A'
 				],
 				[
 					'arabicpfb',
@@ -1906,7 +1906,7 @@ module.exports = {
 				],
 				[
 					'arabicpresentationformsb',
-					'Arabic Presentation Forms-B'
+					'Arabic_Presentation_Forms-B'
 				],
 				[
 					'arabicsup',
@@ -1914,7 +1914,7 @@ module.exports = {
 				],
 				[
 					'arabicsupplement',
-					'Arabic Supplement'
+					'Arabic_Supplement'
 				],
 				[
 					'armenian',
@@ -1930,7 +1930,7 @@ module.exports = {
 				],
 				[
 					'basiclatin',
-					'Basic Latin'
+					'Basic_Latin'
 				],
 				[
 					'avestan',
@@ -1950,11 +1950,11 @@ module.exports = {
 				],
 				[
 					'bamumsupplement',
-					'Bamum Supplement'
+					'Bamum_Supplement'
 				],
 				[
 					'bassavah',
-					'Bassa Vah'
+					'Bassa_Vah'
 				],
 				[
 					'batak',
@@ -1966,7 +1966,7 @@ module.exports = {
 				],
 				[
 					'blockelements',
-					'Block Elements'
+					'Block_Elements'
 				],
 				[
 					'bopomofo',
@@ -1978,11 +1978,11 @@ module.exports = {
 				],
 				[
 					'bopomofoextended',
-					'Bopomofo Extended'
+					'Bopomofo_Extended'
 				],
 				[
 					'boxdrawing',
-					'Box Drawing'
+					'Box_Drawing'
 				],
 				[
 					'brahmi',
@@ -1994,7 +1994,7 @@ module.exports = {
 				],
 				[
 					'braillepatterns',
-					'Braille Patterns'
+					'Braille_Patterns'
 				],
 				[
 					'buginese',
@@ -2010,7 +2010,7 @@ module.exports = {
 				],
 				[
 					'byzantinemusicalsymbols',
-					'Byzantine Musical Symbols'
+					'Byzantine_Musical_Symbols'
 				],
 				[
 					'carian',
@@ -2018,7 +2018,7 @@ module.exports = {
 				],
 				[
 					'caucasianalbanian',
-					'Caucasian Albanian'
+					'Caucasian_Albanian'
 				],
 				[
 					'chakma',
@@ -2038,7 +2038,7 @@ module.exports = {
 				],
 				[
 					'cherokeesupplement',
-					'Cherokee Supplement'
+					'Cherokee_Supplement'
 				],
 				[
 					'cjk',
@@ -2046,7 +2046,7 @@ module.exports = {
 				],
 				[
 					'cjkunifiedideographs',
-					'CJK Unified Ideographs'
+					'CJK_Unified_Ideographs'
 				],
 				[
 					'cjkcompat',
@@ -2054,7 +2054,7 @@ module.exports = {
 				],
 				[
 					'cjkcompatibility',
-					'CJK Compatibility'
+					'CJK_Compatibility'
 				],
 				[
 					'cjkcompatforms',
@@ -2062,7 +2062,7 @@ module.exports = {
 				],
 				[
 					'cjkcompatibilityforms',
-					'CJK Compatibility Forms'
+					'CJK_Compatibility_Forms'
 				],
 				[
 					'cjkcompatideographs',
@@ -2070,7 +2070,7 @@ module.exports = {
 				],
 				[
 					'cjkcompatibilityideographs',
-					'CJK Compatibility Ideographs'
+					'CJK_Compatibility_Ideographs'
 				],
 				[
 					'cjkcompatideographssup',
@@ -2078,7 +2078,7 @@ module.exports = {
 				],
 				[
 					'cjkcompatibilityideographssupplement',
-					'CJK Compatibility Ideographs Supplement'
+					'CJK_Compatibility_Ideographs_Supplement'
 				],
 				[
 					'cjkexta',
@@ -2086,7 +2086,7 @@ module.exports = {
 				],
 				[
 					'cjkunifiedideographsextensiona',
-					'CJK Unified Ideographs Extension A'
+					'CJK_Unified_Ideographs_Extension_A'
 				],
 				[
 					'cjkextb',
@@ -2094,7 +2094,7 @@ module.exports = {
 				],
 				[
 					'cjkunifiedideographsextensionb',
-					'CJK Unified Ideographs Extension B'
+					'CJK_Unified_Ideographs_Extension_B'
 				],
 				[
 					'cjkextc',
@@ -2102,7 +2102,7 @@ module.exports = {
 				],
 				[
 					'cjkunifiedideographsextensionc',
-					'CJK Unified Ideographs Extension C'
+					'CJK_Unified_Ideographs_Extension_C'
 				],
 				[
 					'cjkextd',
@@ -2110,7 +2110,7 @@ module.exports = {
 				],
 				[
 					'cjkunifiedideographsextensiond',
-					'CJK Unified Ideographs Extension D'
+					'CJK_Unified_Ideographs_Extension_D'
 				],
 				[
 					'cjkexte',
@@ -2118,7 +2118,7 @@ module.exports = {
 				],
 				[
 					'cjkunifiedideographsextensione',
-					'CJK Unified Ideographs Extension E'
+					'CJK_Unified_Ideographs_Extension_E'
 				],
 				[
 					'cjkradicalssup',
@@ -2126,11 +2126,11 @@ module.exports = {
 				],
 				[
 					'cjkradicalssupplement',
-					'CJK Radicals Supplement'
+					'CJK_Radicals_Supplement'
 				],
 				[
 					'cjkstrokes',
-					'CJK Strokes'
+					'CJK_Strokes'
 				],
 				[
 					'cjksymbols',
@@ -2138,7 +2138,7 @@ module.exports = {
 				],
 				[
 					'cjksymbolsandpunctuation',
-					'CJK Symbols and Punctuation'
+					'CJK_Symbols_and_Punctuation'
 				],
 				[
 					'compatjamo',
@@ -2146,11 +2146,11 @@ module.exports = {
 				],
 				[
 					'hangulcompatibilityjamo',
-					'Hangul Compatibility Jamo'
+					'Hangul_Compatibility_Jamo'
 				],
 				[
 					'controlpictures',
-					'Control Pictures'
+					'Control_Pictures'
 				],
 				[
 					'coptic',
@@ -2158,7 +2158,7 @@ module.exports = {
 				],
 				[
 					'copticepactnumbers',
-					'Coptic Epact Numbers'
+					'Coptic_Epact_Numbers'
 				],
 				[
 					'countingrod',
@@ -2166,7 +2166,7 @@ module.exports = {
 				],
 				[
 					'countingrodnumerals',
-					'Counting Rod Numerals'
+					'Counting_Rod_Numerals'
 				],
 				[
 					'cuneiform',
@@ -2178,15 +2178,15 @@ module.exports = {
 				],
 				[
 					'cuneiformnumbersandpunctuation',
-					'Cuneiform Numbers and Punctuation'
+					'Cuneiform_Numbers_and_Punctuation'
 				],
 				[
 					'currencysymbols',
-					'Currency Symbols'
+					'Currency_Symbols'
 				],
 				[
 					'cypriotsyllabary',
-					'Cypriot Syllabary'
+					'Cypriot_Syllabary'
 				],
 				[
 					'cyrillic',
@@ -2198,7 +2198,7 @@ module.exports = {
 				],
 				[
 					'cyrillicextendeda',
-					'Cyrillic Extended-A'
+					'Cyrillic_Extended-A'
 				],
 				[
 					'cyrillicextb',
@@ -2206,7 +2206,7 @@ module.exports = {
 				],
 				[
 					'cyrillicextendedb',
-					'Cyrillic Extended-B'
+					'Cyrillic_Extended-B'
 				],
 				[
 					'cyrillicsup',
@@ -2214,7 +2214,7 @@ module.exports = {
 				],
 				[
 					'cyrillicsupplement',
-					'Cyrillic Supplement'
+					'Cyrillic_Supplement'
 				],
 				[
 					'cyrillicsupplementary',
@@ -2234,7 +2234,7 @@ module.exports = {
 				],
 				[
 					'devanagariextended',
-					'Devanagari Extended'
+					'Devanagari_Extended'
 				],
 				[
 					'diacriticals',
@@ -2242,7 +2242,7 @@ module.exports = {
 				],
 				[
 					'combiningdiacriticalmarks',
-					'Combining Diacritical Marks'
+					'Combining_Diacritical_Marks'
 				],
 				[
 					'diacriticalsext',
@@ -2250,7 +2250,7 @@ module.exports = {
 				],
 				[
 					'combiningdiacriticalmarksextended',
-					'Combining Diacritical Marks Extended'
+					'Combining_Diacritical_Marks_Extended'
 				],
 				[
 					'diacriticalsforsymbols',
@@ -2258,7 +2258,7 @@ module.exports = {
 				],
 				[
 					'combiningdiacriticalmarksforsymbols',
-					'Combining Diacritical Marks for Symbols'
+					'Combining_Diacritical_Marks_for_Symbols'
 				],
 				[
 					'combiningmarksforsymbols',
@@ -2270,7 +2270,7 @@ module.exports = {
 				],
 				[
 					'combiningdiacriticalmarkssupplement',
-					'Combining Diacritical Marks Supplement'
+					'Combining_Diacritical_Marks_Supplement'
 				],
 				[
 					'dingbats',
@@ -2282,7 +2282,7 @@ module.exports = {
 				],
 				[
 					'dominotiles',
-					'Domino Tiles'
+					'Domino_Tiles'
 				],
 				[
 					'duployan',
@@ -2290,11 +2290,11 @@ module.exports = {
 				],
 				[
 					'earlydynasticcuneiform',
-					'Early Dynastic Cuneiform'
+					'Early_Dynastic_Cuneiform'
 				],
 				[
 					'egyptianhieroglyphs',
-					'Egyptian Hieroglyphs'
+					'Egyptian_Hieroglyphs'
 				],
 				[
 					'elbasan',
@@ -2310,7 +2310,7 @@ module.exports = {
 				],
 				[
 					'enclosedalphanumerics',
-					'Enclosed Alphanumerics'
+					'Enclosed_Alphanumerics'
 				],
 				[
 					'enclosedalphanumsup',
@@ -2318,7 +2318,7 @@ module.exports = {
 				],
 				[
 					'enclosedalphanumericsupplement',
-					'Enclosed Alphanumeric Supplement'
+					'Enclosed_Alphanumeric_Supplement'
 				],
 				[
 					'enclosedcjk',
@@ -2326,7 +2326,7 @@ module.exports = {
 				],
 				[
 					'enclosedcjklettersandmonths',
-					'Enclosed CJK Letters and Months'
+					'Enclosed_CJK_Letters_and_Months'
 				],
 				[
 					'enclosedideographicsup',
@@ -2334,7 +2334,7 @@ module.exports = {
 				],
 				[
 					'enclosedideographicsupplement',
-					'Enclosed Ideographic Supplement'
+					'Enclosed_Ideographic_Supplement'
 				],
 				[
 					'ethiopic',
@@ -2346,7 +2346,7 @@ module.exports = {
 				],
 				[
 					'ethiopicextended',
-					'Ethiopic Extended'
+					'Ethiopic_Extended'
 				],
 				[
 					'ethiopicexta',
@@ -2354,7 +2354,7 @@ module.exports = {
 				],
 				[
 					'ethiopicextendeda',
-					'Ethiopic Extended-A'
+					'Ethiopic_Extended-A'
 				],
 				[
 					'ethiopicsup',
@@ -2362,11 +2362,11 @@ module.exports = {
 				],
 				[
 					'ethiopicsupplement',
-					'Ethiopic Supplement'
+					'Ethiopic_Supplement'
 				],
 				[
 					'geometricshapes',
-					'Geometric Shapes'
+					'Geometric_Shapes'
 				],
 				[
 					'geometricshapesext',
@@ -2374,7 +2374,7 @@ module.exports = {
 				],
 				[
 					'geometricshapesextended',
-					'Geometric Shapes Extended'
+					'Geometric_Shapes_Extended'
 				],
 				[
 					'georgian',
@@ -2386,7 +2386,7 @@ module.exports = {
 				],
 				[
 					'georgiansupplement',
-					'Georgian Supplement'
+					'Georgian_Supplement'
 				],
 				[
 					'glagolitic',
@@ -2406,7 +2406,7 @@ module.exports = {
 				],
 				[
 					'greekandcoptic',
-					'Greek and Coptic'
+					'Greek_and_Coptic'
 				],
 				[
 					'greekext',
@@ -2414,7 +2414,7 @@ module.exports = {
 				],
 				[
 					'greekextended',
-					'Greek Extended'
+					'Greek_Extended'
 				],
 				[
 					'gujarati',
@@ -2430,7 +2430,7 @@ module.exports = {
 				],
 				[
 					'halfwidthandfullwidthforms',
-					'Halfwidth and Fullwidth Forms'
+					'Halfwidth_and_Fullwidth_Forms'
 				],
 				[
 					'halfmarks',
@@ -2438,7 +2438,7 @@ module.exports = {
 				],
 				[
 					'combininghalfmarks',
-					'Combining Half Marks'
+					'Combining_Half_Marks'
 				],
 				[
 					'hangul',
@@ -2446,7 +2446,7 @@ module.exports = {
 				],
 				[
 					'hangulsyllables',
-					'Hangul Syllables'
+					'Hangul_Syllables'
 				],
 				[
 					'hanunoo',
@@ -2466,11 +2466,11 @@ module.exports = {
 				],
 				[
 					'highprivateusesurrogates',
-					'High Private Use Surrogates'
+					'High_Private_Use_Surrogates'
 				],
 				[
 					'highsurrogates',
-					'High Surrogates'
+					'High_Surrogates'
 				],
 				[
 					'hiragana',
@@ -2482,11 +2482,11 @@ module.exports = {
 				],
 				[
 					'ideographicdescriptioncharacters',
-					'Ideographic Description Characters'
+					'Ideographic_Description_Characters'
 				],
 				[
 					'imperialaramaic',
-					'Imperial Aramaic'
+					'Imperial_Aramaic'
 				],
 				[
 					'indicnumberforms',
@@ -2494,15 +2494,15 @@ module.exports = {
 				],
 				[
 					'commonindicnumberforms',
-					'Common Indic Number Forms'
+					'Common_Indic_Number_Forms'
 				],
 				[
 					'inscriptionalpahlavi',
-					'Inscriptional Pahlavi'
+					'Inscriptional_Pahlavi'
 				],
 				[
 					'inscriptionalparthian',
-					'Inscriptional Parthian'
+					'Inscriptional_Parthian'
 				],
 				[
 					'ipaext',
@@ -2510,7 +2510,7 @@ module.exports = {
 				],
 				[
 					'ipaextensions',
-					'IPA Extensions'
+					'IPA_Extensions'
 				],
 				[
 					'jamo',
@@ -2518,7 +2518,7 @@ module.exports = {
 				],
 				[
 					'hanguljamo',
-					'Hangul Jamo'
+					'Hangul_Jamo'
 				],
 				[
 					'jamoexta',
@@ -2526,7 +2526,7 @@ module.exports = {
 				],
 				[
 					'hanguljamoextendeda',
-					'Hangul Jamo Extended-A'
+					'Hangul_Jamo_Extended-A'
 				],
 				[
 					'jamoextb',
@@ -2534,7 +2534,7 @@ module.exports = {
 				],
 				[
 					'hanguljamoextendedb',
-					'Hangul Jamo Extended-B'
+					'Hangul_Jamo_Extended-B'
 				],
 				[
 					'javanese',
@@ -2550,7 +2550,7 @@ module.exports = {
 				],
 				[
 					'kanasupplement',
-					'Kana Supplement'
+					'Kana_Supplement'
 				],
 				[
 					'kanbun',
@@ -2562,7 +2562,7 @@ module.exports = {
 				],
 				[
 					'kangxiradicals',
-					'Kangxi Radicals'
+					'Kangxi_Radicals'
 				],
 				[
 					'kannada',
@@ -2578,11 +2578,11 @@ module.exports = {
 				],
 				[
 					'katakanaphoneticextensions',
-					'Katakana Phonetic Extensions'
+					'Katakana_Phonetic_Extensions'
 				],
 				[
 					'kayahli',
-					'Kayah Li'
+					'Kayah_Li'
 				],
 				[
 					'kharoshthi',
@@ -2594,7 +2594,7 @@ module.exports = {
 				],
 				[
 					'khmersymbols',
-					'Khmer Symbols'
+					'Khmer_Symbols'
 				],
 				[
 					'khojki',
@@ -2614,7 +2614,7 @@ module.exports = {
 				],
 				[
 					'latin1supplement',
-					'Latin-1 Supplement'
+					'Latin-1_Supplement'
 				],
 				[
 					'latin1',
@@ -2626,7 +2626,7 @@ module.exports = {
 				],
 				[
 					'latinextendeda',
-					'Latin Extended-A'
+					'Latin_Extended-A'
 				],
 				[
 					'latinextadditional',
@@ -2634,7 +2634,7 @@ module.exports = {
 				],
 				[
 					'latinextendedadditional',
-					'Latin Extended Additional'
+					'Latin_Extended_Additional'
 				],
 				[
 					'latinextb',
@@ -2642,7 +2642,7 @@ module.exports = {
 				],
 				[
 					'latinextendedb',
-					'Latin Extended-B'
+					'Latin_Extended-B'
 				],
 				[
 					'latinextc',
@@ -2650,7 +2650,7 @@ module.exports = {
 				],
 				[
 					'latinextendedc',
-					'Latin Extended-C'
+					'Latin_Extended-C'
 				],
 				[
 					'latinextd',
@@ -2658,7 +2658,7 @@ module.exports = {
 				],
 				[
 					'latinextendedd',
-					'Latin Extended-D'
+					'Latin_Extended-D'
 				],
 				[
 					'latinexte',
@@ -2666,7 +2666,7 @@ module.exports = {
 				],
 				[
 					'latinextendede',
-					'Latin Extended-E'
+					'Latin_Extended-E'
 				],
 				[
 					'lepcha',
@@ -2674,7 +2674,7 @@ module.exports = {
 				],
 				[
 					'letterlikesymbols',
-					'Letterlike Symbols'
+					'Letterlike_Symbols'
 				],
 				[
 					'limbu',
@@ -2682,15 +2682,15 @@ module.exports = {
 				],
 				[
 					'lineara',
-					'Linear A'
+					'Linear_A'
 				],
 				[
 					'linearbideograms',
-					'Linear B Ideograms'
+					'Linear_B_Ideograms'
 				],
 				[
 					'linearbsyllabary',
-					'Linear B Syllabary'
+					'Linear_B_Syllabary'
 				],
 				[
 					'lisu',
@@ -2698,7 +2698,7 @@ module.exports = {
 				],
 				[
 					'lowsurrogates',
-					'Low Surrogates'
+					'Low_Surrogates'
 				],
 				[
 					'lycian',
@@ -2718,7 +2718,7 @@ module.exports = {
 				],
 				[
 					'mahjongtiles',
-					'Mahjong Tiles'
+					'Mahjong_Tiles'
 				],
 				[
 					'malayalam',
@@ -2738,7 +2738,7 @@ module.exports = {
 				],
 				[
 					'mathematicalalphanumericsymbols',
-					'Mathematical Alphanumeric Symbols'
+					'Mathematical_Alphanumeric_Symbols'
 				],
 				[
 					'mathoperators',
@@ -2746,11 +2746,11 @@ module.exports = {
 				],
 				[
 					'mathematicaloperators',
-					'Mathematical Operators'
+					'Mathematical_Operators'
 				],
 				[
 					'meeteimayek',
-					'Meetei Mayek'
+					'Meetei_Mayek'
 				],
 				[
 					'meeteimayekext',
@@ -2758,19 +2758,19 @@ module.exports = {
 				],
 				[
 					'meeteimayekextensions',
-					'Meetei Mayek Extensions'
+					'Meetei_Mayek_Extensions'
 				],
 				[
 					'mendekikakui',
-					'Mende Kikakui'
+					'Mende_Kikakui'
 				],
 				[
 					'meroiticcursive',
-					'Meroitic Cursive'
+					'Meroitic_Cursive'
 				],
 				[
 					'meroitichieroglyphs',
-					'Meroitic Hieroglyphs'
+					'Meroitic_Hieroglyphs'
 				],
 				[
 					'miao',
@@ -2782,7 +2782,7 @@ module.exports = {
 				],
 				[
 					'miscellaneoussymbolsandarrows',
-					'Miscellaneous Symbols and Arrows'
+					'Miscellaneous_Symbols_and_Arrows'
 				],
 				[
 					'miscmathsymbolsa',
@@ -2790,7 +2790,7 @@ module.exports = {
 				],
 				[
 					'miscellaneousmathematicalsymbolsa',
-					'Miscellaneous Mathematical Symbols-A'
+					'Miscellaneous_Mathematical_Symbols-A'
 				],
 				[
 					'miscmathsymbolsb',
@@ -2798,7 +2798,7 @@ module.exports = {
 				],
 				[
 					'miscellaneousmathematicalsymbolsb',
-					'Miscellaneous Mathematical Symbols-B'
+					'Miscellaneous_Mathematical_Symbols-B'
 				],
 				[
 					'miscpictographs',
@@ -2806,7 +2806,7 @@ module.exports = {
 				],
 				[
 					'miscellaneoussymbolsandpictographs',
-					'Miscellaneous Symbols and Pictographs'
+					'Miscellaneous_Symbols_and_Pictographs'
 				],
 				[
 					'miscsymbols',
@@ -2814,7 +2814,7 @@ module.exports = {
 				],
 				[
 					'miscellaneoussymbols',
-					'Miscellaneous Symbols'
+					'Miscellaneous_Symbols'
 				],
 				[
 					'misctechnical',
@@ -2822,7 +2822,7 @@ module.exports = {
 				],
 				[
 					'miscellaneoustechnical',
-					'Miscellaneous Technical'
+					'Miscellaneous_Technical'
 				],
 				[
 					'modi',
@@ -2834,11 +2834,11 @@ module.exports = {
 				],
 				[
 					'spacingmodifierletters',
-					'Spacing Modifier Letters'
+					'Spacing_Modifier_Letters'
 				],
 				[
 					'modifiertoneletters',
-					'Modifier Tone Letters'
+					'Modifier_Tone_Letters'
 				],
 				[
 					'mongolian',
@@ -2858,7 +2858,7 @@ module.exports = {
 				],
 				[
 					'musicalsymbols',
-					'Musical Symbols'
+					'Musical_Symbols'
 				],
 				[
 					'myanmar',
@@ -2870,7 +2870,7 @@ module.exports = {
 				],
 				[
 					'myanmarextendeda',
-					'Myanmar Extended-A'
+					'Myanmar_Extended-A'
 				],
 				[
 					'myanmarextb',
@@ -2878,7 +2878,7 @@ module.exports = {
 				],
 				[
 					'myanmarextendedb',
-					'Myanmar Extended-B'
+					'Myanmar_Extended-B'
 				],
 				[
 					'nabataean',
@@ -2894,7 +2894,7 @@ module.exports = {
 				],
 				[
 					'newtailue',
-					'New Tai Lue'
+					'New_Tai_Lue'
 				],
 				[
 					'nko',
@@ -2902,7 +2902,7 @@ module.exports = {
 				],
 				[
 					'numberforms',
-					'Number Forms'
+					'Number_Forms'
 				],
 				[
 					'ocr',
@@ -2910,7 +2910,7 @@ module.exports = {
 				],
 				[
 					'opticalcharacterrecognition',
-					'Optical Character Recognition'
+					'Optical_Character_Recognition'
 				],
 				[
 					'ogham',
@@ -2918,35 +2918,35 @@ module.exports = {
 				],
 				[
 					'olchiki',
-					'Ol Chiki'
+					'Ol_Chiki'
 				],
 				[
 					'oldhungarian',
-					'Old Hungarian'
+					'Old_Hungarian'
 				],
 				[
 					'olditalic',
-					'Old Italic'
+					'Old_Italic'
 				],
 				[
 					'oldnortharabian',
-					'Old North Arabian'
+					'Old_North_Arabian'
 				],
 				[
 					'oldpermic',
-					'Old Permic'
+					'Old_Permic'
 				],
 				[
 					'oldpersian',
-					'Old Persian'
+					'Old_Persian'
 				],
 				[
 					'oldsoutharabian',
-					'Old South Arabian'
+					'Old_South_Arabian'
 				],
 				[
 					'oldturkic',
-					'Old Turkic'
+					'Old_Turkic'
 				],
 				[
 					'oriya',
@@ -2954,7 +2954,7 @@ module.exports = {
 				],
 				[
 					'ornamentaldingbats',
-					'Ornamental Dingbats'
+					'Ornamental_Dingbats'
 				],
 				[
 					'osmanya',
@@ -2962,7 +2962,7 @@ module.exports = {
 				],
 				[
 					'pahawhhmong',
-					'Pahawh Hmong'
+					'Pahawh_Hmong'
 				],
 				[
 					'palmyrene',
@@ -2970,7 +2970,7 @@ module.exports = {
 				],
 				[
 					'paucinhau',
-					'Pau Cin Hau'
+					'Pau_Cin_Hau'
 				],
 				[
 					'phagspa',
@@ -2982,7 +2982,7 @@ module.exports = {
 				],
 				[
 					'phaistosdisc',
-					'Phaistos Disc'
+					'Phaistos_Disc'
 				],
 				[
 					'phoenician',
@@ -2994,7 +2994,7 @@ module.exports = {
 				],
 				[
 					'phoneticextensions',
-					'Phonetic Extensions'
+					'Phonetic_Extensions'
 				],
 				[
 					'phoneticextsup',
@@ -3002,15 +3002,15 @@ module.exports = {
 				],
 				[
 					'phoneticextensionssupplement',
-					'Phonetic Extensions Supplement'
+					'Phonetic_Extensions_Supplement'
 				],
 				[
 					'playingcards',
-					'Playing Cards'
+					'Playing_Cards'
 				],
 				[
 					'psalterpahlavi',
-					'Psalter Pahlavi'
+					'Psalter_Pahlavi'
 				],
 				[
 					'pua',
@@ -3018,7 +3018,7 @@ module.exports = {
 				],
 				[
 					'privateusearea',
-					'Private Use Area'
+					'Private_Use_Area'
 				],
 				[
 					'privateuse',
@@ -3030,7 +3030,7 @@ module.exports = {
 				],
 				[
 					'generalpunctuation',
-					'General Punctuation'
+					'General_Punctuation'
 				],
 				[
 					'rejang',
@@ -3042,7 +3042,7 @@ module.exports = {
 				],
 				[
 					'ruminumeralsymbols',
-					'Rumi Numeral Symbols'
+					'Rumi_Numeral_Symbols'
 				],
 				[
 					'runic',
@@ -3066,7 +3066,7 @@ module.exports = {
 				],
 				[
 					'shorthandformatcontrols',
-					'Shorthand Format Controls'
+					'Shorthand_Format_Controls'
 				],
 				[
 					'siddham',
@@ -3078,7 +3078,7 @@ module.exports = {
 				],
 				[
 					'sinhalaarchaicnumbers',
-					'Sinhala Archaic Numbers'
+					'Sinhala_Archaic_Numbers'
 				],
 				[
 					'smallforms',
@@ -3086,11 +3086,11 @@ module.exports = {
 				],
 				[
 					'smallformvariants',
-					'Small Form Variants'
+					'Small_Form_Variants'
 				],
 				[
 					'sorasompeng',
-					'Sora Sompeng'
+					'Sora_Sompeng'
 				],
 				[
 					'specials',
@@ -3106,7 +3106,7 @@ module.exports = {
 				],
 				[
 					'sundanesesupplement',
-					'Sundanese Supplement'
+					'Sundanese_Supplement'
 				],
 				[
 					'suparrowsa',
@@ -3114,7 +3114,7 @@ module.exports = {
 				],
 				[
 					'supplementalarrowsa',
-					'Supplemental Arrows-A'
+					'Supplemental_Arrows-A'
 				],
 				[
 					'suparrowsb',
@@ -3122,7 +3122,7 @@ module.exports = {
 				],
 				[
 					'supplementalarrowsb',
-					'Supplemental Arrows-B'
+					'Supplemental_Arrows-B'
 				],
 				[
 					'suparrowsc',
@@ -3130,7 +3130,7 @@ module.exports = {
 				],
 				[
 					'supplementalarrowsc',
-					'Supplemental Arrows-C'
+					'Supplemental_Arrows-C'
 				],
 				[
 					'supmathoperators',
@@ -3138,7 +3138,7 @@ module.exports = {
 				],
 				[
 					'supplementalmathematicaloperators',
-					'Supplemental Mathematical Operators'
+					'Supplemental_Mathematical_Operators'
 				],
 				[
 					'suppuaa',
@@ -3146,7 +3146,7 @@ module.exports = {
 				],
 				[
 					'supplementaryprivateuseareaa',
-					'Supplementary Private Use Area-A'
+					'Supplementary_Private_Use_Area-A'
 				],
 				[
 					'suppuab',
@@ -3154,7 +3154,7 @@ module.exports = {
 				],
 				[
 					'supplementaryprivateuseareab',
-					'Supplementary Private Use Area-B'
+					'Supplementary_Private_Use_Area-B'
 				],
 				[
 					'suppunctuation',
@@ -3162,7 +3162,7 @@ module.exports = {
 				],
 				[
 					'supplementalpunctuation',
-					'Supplemental Punctuation'
+					'Supplemental_Punctuation'
 				],
 				[
 					'supsymbolsandpictographs',
@@ -3170,7 +3170,7 @@ module.exports = {
 				],
 				[
 					'supplementalsymbolsandpictographs',
-					'Supplemental Symbols and Pictographs'
+					'Supplemental_Symbols_and_Pictographs'
 				],
 				[
 					'superandsub',
@@ -3178,15 +3178,15 @@ module.exports = {
 				],
 				[
 					'superscriptsandsubscripts',
-					'Superscripts and Subscripts'
+					'Superscripts_and_Subscripts'
 				],
 				[
 					'suttonsignwriting',
-					'Sutton SignWriting'
+					'Sutton_SignWriting'
 				],
 				[
 					'sylotinagri',
-					'Syloti Nagri'
+					'Syloti_Nagri'
 				],
 				[
 					'syriac',
@@ -3206,15 +3206,15 @@ module.exports = {
 				],
 				[
 					'taile',
-					'Tai Le'
+					'Tai_Le'
 				],
 				[
 					'taitham',
-					'Tai Tham'
+					'Tai_Tham'
 				],
 				[
 					'taiviet',
-					'Tai Viet'
+					'Tai_Viet'
 				],
 				[
 					'taixuanjing',
@@ -3222,7 +3222,7 @@ module.exports = {
 				],
 				[
 					'taixuanjingsymbols',
-					'Tai Xuan Jing Symbols'
+					'Tai_Xuan_Jing_Symbols'
 				],
 				[
 					'takri',
@@ -3262,7 +3262,7 @@ module.exports = {
 				],
 				[
 					'transportandmapsymbols',
-					'Transport and Map Symbols'
+					'Transport_and_Map_Symbols'
 				],
 				[
 					'ucas',
@@ -3270,7 +3270,7 @@ module.exports = {
 				],
 				[
 					'unifiedcanadianaboriginalsyllabics',
-					'Unified Canadian Aboriginal Syllabics'
+					'Unified_Canadian_Aboriginal_Syllabics'
 				],
 				[
 					'canadiansyllabics',
@@ -3282,7 +3282,7 @@ module.exports = {
 				],
 				[
 					'unifiedcanadianaboriginalsyllabicsextended',
-					'Unified Canadian Aboriginal Syllabics Extended'
+					'Unified_Canadian_Aboriginal_Syllabics_Extended'
 				],
 				[
 					'ugaritic',
@@ -3298,11 +3298,11 @@ module.exports = {
 				],
 				[
 					'vedicextensions',
-					'Vedic Extensions'
+					'Vedic_Extensions'
 				],
 				[
 					'verticalforms',
-					'Vertical Forms'
+					'Vertical_Forms'
 				],
 				[
 					'vs',
@@ -3310,7 +3310,7 @@ module.exports = {
 				],
 				[
 					'variationselectors',
-					'Variation Selectors'
+					'Variation_Selectors'
 				],
 				[
 					'vssup',
@@ -3318,19 +3318,19 @@ module.exports = {
 				],
 				[
 					'variationselectorssupplement',
-					'Variation Selectors Supplement'
+					'Variation_Selectors_Supplement'
 				],
 				[
 					'warangciti',
-					'Warang Citi'
+					'Warang_Citi'
 				],
 				[
 					'yiradicals',
-					'Yi Radicals'
+					'Yi_Radicals'
 				],
 				[
 					'yisyllables',
-					'Yi Syllables'
+					'Yi_Syllables'
 				],
 				[
 					'yijing',
@@ -3338,7 +3338,7 @@ module.exports = {
 				],
 				[
 					'yijinghexagramsymbols',
-					'Yijing Hexagram Symbols'
+					'Yijing_Hexagram_Symbols'
 				]
 			])
 		],
