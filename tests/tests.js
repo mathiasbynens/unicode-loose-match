@@ -19,6 +19,10 @@ test(t => {
 		{ 'property': 'Block' }
 	);
 	t.deepEqual(
+		matchLoosely('scx', 'greek'),
+		{ 'property': 'Script_Extensions', 'value': 'Greek' }
+	);
+	t.deepEqual(
 		matchLoosely('isc'),
 		{ 'property': 'ISO_Comment' }
 	);

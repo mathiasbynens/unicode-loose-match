@@ -31,16 +31,15 @@ for (const [propertyAlias, canonicalProperty] of propertyAliases.entries()) {
 	aliasToProperty.set(normalizedCanonicalProperty, canonicalProperty);
 	// Handle the property value aliases for this property.
 	const valueAliasMappings = valueAliases.get(canonicalProperty);
-	if (!valueAliasMappings) {
-		continue;
-	}
 	// { property value alias => canonical property value }
 	const aliasToValue = new Map();
-	for (const [valueAlias, canonicalValue] of valueAliasMappings.entries()) {
-		const normalizedValueAlias = normalize(valueAlias);
-		aliasToValue.set(normalizedValueAlias, canonicalValue);
-		const normalizedCanonicalValue = normalize(canonicalValue);
-		aliasToValue.set(normalizedCanonicalValue, canonicalValue);
+	if (valueAliasMappings) {
+		for (const [valueAlias, canonicalValue] of valueAliasMappings.entries()) {
+			const normalizedValueAlias = normalize(valueAlias);
+			aliasToValue.set(normalizedValueAlias, canonicalValue);
+			const normalizedCanonicalValue = normalize(canonicalValue);
+			aliasToValue.set(normalizedCanonicalValue, canonicalValue);
+		}
 	}
 	// Add normalized “aliases” for known blocks.
 	if (canonicalProperty == 'Block') {
@@ -71,7 +70,11 @@ for (const [propertyAlias, canonicalProperty] of propertyAliases.entries()) {
 		}
 	}
 	// { canonical property => { property value alias => canonical property value } }
-	propertyToValueAliases.set(canonicalProperty, aliasToValue);
+	if (aliasToValue.size) {
+		propertyToValueAliases.set(canonicalProperty, aliasToValue);
+	} else {
+		console.log(`No property value aliases for ${ canonicalProperty }`);
+	}
 }
 
 // Add normalized “aliases” for binary properties.
