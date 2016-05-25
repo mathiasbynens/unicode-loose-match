@@ -8,7 +8,8 @@
   },
   "files": [
     "LICENSE-MIT.txt",
-    "index.js"
+    "index.js",
+    "data/mappings.js"
   ],
   "keywords": [
     "unicode",
