@@ -27,6 +27,22 @@ test(t => {
 		{ 'property': 'ISO_Comment' }
 	);
 	t.deepEqual(
+		matchLoosely('ce'),
+		{ 'property': 'Composition_Exclusion' }
+	);
+	t.deepEqual(
+		matchLoosely('compositionexclusion'),
+		{ 'property': 'Composition_Exclusion' }
+	);
+	t.deepEqual(
+		matchLoosely('bidimirrored'),
+		{ 'property': 'Bidi_Mirrored' }
+	);
+	t.deepEqual(
+		matchLoosely('bidim'),
+		{ 'property': 'Bidi_Mirrored' }
+	);
+	t.deepEqual(
 		matchLoosely('compex'),
 		{ 'property': 'Full_Composition_Exclusion' }
 	);

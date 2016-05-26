@@ -28,7 +28,7 @@
   "devDependencies": {
     "ava": "*",
     "jsesc": "^1.2.0",
-    "unicode-8.0.0": "^0.3.0",
+    "unicode-8.0.0": "^0.3.1",
     "unicode-property-aliases": "^1.0.0",
     "unicode-property-value-aliases": "^1.0.1"
   },
