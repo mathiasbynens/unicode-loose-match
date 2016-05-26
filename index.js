@@ -21,7 +21,9 @@ const matchLoosely = function(property, value) {
 	if (!canonicalProperty) {
 		throw new Error(`Unknown property: ${ property }`);
 	}
-	const aliasToValue = propertyToValueAliases.get(canonicalProperty);
+	const aliasToValue = propertyToValueAliases.get(
+		canonicalProperty == 'Script_Extensions' ? 'Script' : canonicalProperty
+	);
 	const result = {
 		'property': canonicalProperty
 	};

@@ -27,8 +27,20 @@ test(t => {
 		{ 'property': 'General_Category', 'value': 'Uppercase_Letter' }
 	);
 	t.deepEqual(
+		matchLoosely('sc', 'greek'),
+		{ 'property': 'Script', 'value': 'Greek' }
+	);
+	t.deepEqual(
 		matchLoosely('scx', 'greek'),
 		{ 'property': 'Script_Extensions', 'value': 'Greek' }
+	);
+	t.deepEqual(
+		matchLoosely('sc', 'Xpeo'),
+		{ 'property': 'Script', 'value': 'Old_Persian' }
+	);
+	t.deepEqual(
+		matchLoosely('scx', 'Xpeo'),
+		{ 'property': 'Script_Extensions', 'value': 'Old_Persian' }
 	);
 	t.deepEqual(
 		matchLoosely('isc'),
