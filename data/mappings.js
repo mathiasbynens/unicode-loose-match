@@ -5236,7 +5236,7 @@ module.exports = {
 					'Mark'
 				],
 				[
-					'combiningmark#mc|me|mn',
+					'combiningmark',
 					'Mark'
 				],
 				[
@@ -5308,7 +5308,7 @@ module.exports = {
 					'Punctuation'
 				],
 				[
-					'punct#pc|pd|pe|pf|pi|po|ps',
+					'punct',
 					'Punctuation'
 				],
 				[
