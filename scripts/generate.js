@@ -48,14 +48,6 @@ for (const [propertyAlias, canonicalProperty] of propertyAliases.entries()) {
 			aliasToValue.set(normalizedBlock, block);
 		}
 	}
-	// Add normalized “aliases” for known categories.
-	if (canonicalProperty == 'General_Category') {
-		for (const category of unicode.categories) {
-			const normalizedCategory = normalize(category);
-			const canonicalCategory = valueAliasMappings.get(category);
-			aliasToValue.set(normalizedCategory, canonicalCategory);
-		}
-	}
 	// Add normalized “aliases” for known scripts.
 	if (canonicalProperty == 'Script') {
 		for (const script of unicode.scripts) {
