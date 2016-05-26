@@ -41,13 +41,6 @@ for (const [propertyAlias, canonicalProperty] of propertyAliases.entries()) {
 			aliasToValue.set(normalizedCanonicalValue, canonicalValue);
 		}
 	}
-	// Add normalized “aliases” for known blocks.
-	if (canonicalProperty == 'Block') {
-		for (const block of unicode.blocks) {
-			const normalizedBlock = normalize(block);
-			aliasToValue.set(normalizedBlock, block);
-		}
-	}
 	// { canonical property => { property value alias => canonical property value } }
 	if (aliasToValue.size) {
 		propertyToValueAliases.set(canonicalProperty, aliasToValue);

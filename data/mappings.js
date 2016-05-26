@@ -1353,7 +1353,7 @@ module.exports = {
 				],
 				[
 					'arabicextendeda',
-					'Arabic_Extended-A'
+					'Arabic_Extended_A'
 				],
 				[
 					'arabicmath',
@@ -1369,7 +1369,7 @@ module.exports = {
 				],
 				[
 					'arabicpresentationformsa',
-					'Arabic_Presentation_Forms-A'
+					'Arabic_Presentation_Forms_A'
 				],
 				[
 					'arabicpfb',
@@ -1377,7 +1377,7 @@ module.exports = {
 				],
 				[
 					'arabicpresentationformsb',
-					'Arabic_Presentation_Forms-B'
+					'Arabic_Presentation_Forms_B'
 				],
 				[
 					'arabicsup',
@@ -1609,7 +1609,7 @@ module.exports = {
 				],
 				[
 					'cjksymbolsandpunctuation',
-					'CJK_Symbols_and_Punctuation'
+					'CJK_Symbols_And_Punctuation'
 				],
 				[
 					'compatjamo',
@@ -1649,7 +1649,7 @@ module.exports = {
 				],
 				[
 					'cuneiformnumbersandpunctuation',
-					'Cuneiform_Numbers_and_Punctuation'
+					'Cuneiform_Numbers_And_Punctuation'
 				],
 				[
 					'currencysymbols',
@@ -1669,7 +1669,7 @@ module.exports = {
 				],
 				[
 					'cyrillicextendeda',
-					'Cyrillic_Extended-A'
+					'Cyrillic_Extended_A'
 				],
 				[
 					'cyrillicextb',
@@ -1677,7 +1677,7 @@ module.exports = {
 				],
 				[
 					'cyrillicextendedb',
-					'Cyrillic_Extended-B'
+					'Cyrillic_Extended_B'
 				],
 				[
 					'cyrillicsup',
@@ -1729,7 +1729,7 @@ module.exports = {
 				],
 				[
 					'combiningdiacriticalmarksforsymbols',
-					'Combining_Diacritical_Marks_for_Symbols'
+					'Combining_Diacritical_Marks_For_Symbols'
 				],
 				[
 					'combiningmarksforsymbols',
@@ -1797,7 +1797,7 @@ module.exports = {
 				],
 				[
 					'enclosedcjklettersandmonths',
-					'Enclosed_CJK_Letters_and_Months'
+					'Enclosed_CJK_Letters_And_Months'
 				],
 				[
 					'enclosedideographicsup',
@@ -1825,7 +1825,7 @@ module.exports = {
 				],
 				[
 					'ethiopicextendeda',
-					'Ethiopic_Extended-A'
+					'Ethiopic_Extended_A'
 				],
 				[
 					'ethiopicsup',
@@ -1877,7 +1877,7 @@ module.exports = {
 				],
 				[
 					'greekandcoptic',
-					'Greek_and_Coptic'
+					'Greek_And_Coptic'
 				],
 				[
 					'greekext',
@@ -1901,7 +1901,7 @@ module.exports = {
 				],
 				[
 					'halfwidthandfullwidthforms',
-					'Halfwidth_and_Fullwidth_Forms'
+					'Halfwidth_And_Fullwidth_Forms'
 				],
 				[
 					'halfmarks',
@@ -1997,7 +1997,7 @@ module.exports = {
 				],
 				[
 					'hanguljamoextendeda',
-					'Hangul_Jamo_Extended-A'
+					'Hangul_Jamo_Extended_A'
 				],
 				[
 					'jamoextb',
@@ -2005,7 +2005,7 @@ module.exports = {
 				],
 				[
 					'hanguljamoextendedb',
-					'Hangul_Jamo_Extended-B'
+					'Hangul_Jamo_Extended_B'
 				],
 				[
 					'javanese',
@@ -2085,7 +2085,7 @@ module.exports = {
 				],
 				[
 					'latin1supplement',
-					'Latin-1_Supplement'
+					'Latin_1_Supplement'
 				],
 				[
 					'latin1',
@@ -2097,7 +2097,7 @@ module.exports = {
 				],
 				[
 					'latinextendeda',
-					'Latin_Extended-A'
+					'Latin_Extended_A'
 				],
 				[
 					'latinextadditional',
@@ -2113,7 +2113,7 @@ module.exports = {
 				],
 				[
 					'latinextendedb',
-					'Latin_Extended-B'
+					'Latin_Extended_B'
 				],
 				[
 					'latinextc',
@@ -2121,7 +2121,7 @@ module.exports = {
 				],
 				[
 					'latinextendedc',
-					'Latin_Extended-C'
+					'Latin_Extended_C'
 				],
 				[
 					'latinextd',
@@ -2129,7 +2129,7 @@ module.exports = {
 				],
 				[
 					'latinextendedd',
-					'Latin_Extended-D'
+					'Latin_Extended_D'
 				],
 				[
 					'latinexte',
@@ -2137,7 +2137,7 @@ module.exports = {
 				],
 				[
 					'latinextendede',
-					'Latin_Extended-E'
+					'Latin_Extended_E'
 				],
 				[
 					'lepcha',
@@ -2253,7 +2253,7 @@ module.exports = {
 				],
 				[
 					'miscellaneoussymbolsandarrows',
-					'Miscellaneous_Symbols_and_Arrows'
+					'Miscellaneous_Symbols_And_Arrows'
 				],
 				[
 					'miscmathsymbolsa',
@@ -2261,7 +2261,7 @@ module.exports = {
 				],
 				[
 					'miscellaneousmathematicalsymbolsa',
-					'Miscellaneous_Mathematical_Symbols-A'
+					'Miscellaneous_Mathematical_Symbols_A'
 				],
 				[
 					'miscmathsymbolsb',
@@ -2269,7 +2269,7 @@ module.exports = {
 				],
 				[
 					'miscellaneousmathematicalsymbolsb',
-					'Miscellaneous_Mathematical_Symbols-B'
+					'Miscellaneous_Mathematical_Symbols_B'
 				],
 				[
 					'miscpictographs',
@@ -2277,7 +2277,7 @@ module.exports = {
 				],
 				[
 					'miscellaneoussymbolsandpictographs',
-					'Miscellaneous_Symbols_and_Pictographs'
+					'Miscellaneous_Symbols_And_Pictographs'
 				],
 				[
 					'miscsymbols',
@@ -2341,7 +2341,7 @@ module.exports = {
 				],
 				[
 					'myanmarextendeda',
-					'Myanmar_Extended-A'
+					'Myanmar_Extended_A'
 				],
 				[
 					'myanmarextb',
@@ -2349,7 +2349,7 @@ module.exports = {
 				],
 				[
 					'myanmarextendedb',
-					'Myanmar_Extended-B'
+					'Myanmar_Extended_B'
 				],
 				[
 					'nabataean',
@@ -2445,7 +2445,7 @@ module.exports = {
 				],
 				[
 					'phagspa',
-					'Phags-pa'
+					'Phags_Pa'
 				],
 				[
 					'phaistos',
@@ -2585,7 +2585,7 @@ module.exports = {
 				],
 				[
 					'supplementalarrowsa',
-					'Supplemental_Arrows-A'
+					'Supplemental_Arrows_A'
 				],
 				[
 					'suparrowsb',
@@ -2593,7 +2593,7 @@ module.exports = {
 				],
 				[
 					'supplementalarrowsb',
-					'Supplemental_Arrows-B'
+					'Supplemental_Arrows_B'
 				],
 				[
 					'suparrowsc',
@@ -2601,7 +2601,7 @@ module.exports = {
 				],
 				[
 					'supplementalarrowsc',
-					'Supplemental_Arrows-C'
+					'Supplemental_Arrows_C'
 				],
 				[
 					'supmathoperators',
@@ -2617,7 +2617,7 @@ module.exports = {
 				],
 				[
 					'supplementaryprivateuseareaa',
-					'Supplementary_Private_Use_Area-A'
+					'Supplementary_Private_Use_Area_A'
 				],
 				[
 					'suppuab',
@@ -2625,7 +2625,7 @@ module.exports = {
 				],
 				[
 					'supplementaryprivateuseareab',
-					'Supplementary_Private_Use_Area-B'
+					'Supplementary_Private_Use_Area_B'
 				],
 				[
 					'suppunctuation',
@@ -2641,7 +2641,7 @@ module.exports = {
 				],
 				[
 					'supplementalsymbolsandpictographs',
-					'Supplemental_Symbols_and_Pictographs'
+					'Supplemental_Symbols_And_Pictographs'
 				],
 				[
 					'superandsub',
@@ -2649,7 +2649,7 @@ module.exports = {
 				],
 				[
 					'superscriptsandsubscripts',
-					'Superscripts_and_Subscripts'
+					'Superscripts_And_Subscripts'
 				],
 				[
 					'suttonsignwriting',
@@ -2733,7 +2733,7 @@ module.exports = {
 				],
 				[
 					'transportandmapsymbols',
-					'Transport_and_Map_Symbols'
+					'Transport_And_Map_Symbols'
 				],
 				[
 					'ucas',
