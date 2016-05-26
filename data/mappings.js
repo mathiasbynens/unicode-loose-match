@@ -5121,7 +5121,7 @@ module.exports = {
 			new Map([
 				[
 					'c',
-					'C'
+					'Other'
 				],
 				[
 					'other',
@@ -5129,7 +5129,7 @@ module.exports = {
 				],
 				[
 					'cc',
-					'Cc'
+					'Control'
 				],
 				[
 					'control',
@@ -5141,7 +5141,7 @@ module.exports = {
 				],
 				[
 					'cf',
-					'Cf'
+					'Format'
 				],
 				[
 					'format',
@@ -5149,7 +5149,7 @@ module.exports = {
 				],
 				[
 					'cn',
-					'Cn'
+					'Unassigned'
 				],
 				[
 					'unassigned',
@@ -5157,7 +5157,7 @@ module.exports = {
 				],
 				[
 					'co',
-					'Co'
+					'Private_Use'
 				],
 				[
 					'privateuse',
@@ -5165,7 +5165,7 @@ module.exports = {
 				],
 				[
 					'cs',
-					'Cs'
+					'Surrogate'
 				],
 				[
 					'surrogate',
@@ -5173,7 +5173,7 @@ module.exports = {
 				],
 				[
 					'l',
-					'L'
+					'Letter'
 				],
 				[
 					'letter',
@@ -5181,7 +5181,7 @@ module.exports = {
 				],
 				[
 					'lc',
-					'LC'
+					'Cased_Letter'
 				],
 				[
 					'casedletter',
@@ -5189,7 +5189,7 @@ module.exports = {
 				],
 				[
 					'll',
-					'Ll'
+					'Lowercase_Letter'
 				],
 				[
 					'lowercaseletter',
@@ -5197,7 +5197,7 @@ module.exports = {
 				],
 				[
 					'lm',
-					'Lm'
+					'Modifier_Letter'
 				],
 				[
 					'modifierletter',
@@ -5205,7 +5205,7 @@ module.exports = {
 				],
 				[
 					'lo',
-					'Lo'
+					'Other_Letter'
 				],
 				[
 					'otherletter',
@@ -5213,7 +5213,7 @@ module.exports = {
 				],
 				[
 					'lt',
-					'Lt'
+					'Titlecase_Letter'
 				],
 				[
 					'titlecaseletter',
@@ -5221,7 +5221,7 @@ module.exports = {
 				],
 				[
 					'lu',
-					'Lu'
+					'Uppercase_Letter'
 				],
 				[
 					'uppercaseletter',
@@ -5229,7 +5229,7 @@ module.exports = {
 				],
 				[
 					'm',
-					'M'
+					'Mark'
 				],
 				[
 					'mark',
@@ -5241,7 +5241,7 @@ module.exports = {
 				],
 				[
 					'mc',
-					'Mc'
+					'Spacing_Mark'
 				],
 				[
 					'spacingmark',
@@ -5249,7 +5249,7 @@ module.exports = {
 				],
 				[
 					'me',
-					'Me'
+					'Enclosing_Mark'
 				],
 				[
 					'enclosingmark',
@@ -5257,7 +5257,7 @@ module.exports = {
 				],
 				[
 					'mn',
-					'Mn'
+					'Nonspacing_Mark'
 				],
 				[
 					'nonspacingmark',
@@ -5265,7 +5265,7 @@ module.exports = {
 				],
 				[
 					'n',
-					'N'
+					'Number'
 				],
 				[
 					'number',
@@ -5273,7 +5273,7 @@ module.exports = {
 				],
 				[
 					'nd',
-					'Nd'
+					'Decimal_Number'
 				],
 				[
 					'decimalnumber',
@@ -5285,7 +5285,7 @@ module.exports = {
 				],
 				[
 					'nl',
-					'Nl'
+					'Letter_Number'
 				],
 				[
 					'letternumber',
@@ -5293,7 +5293,7 @@ module.exports = {
 				],
 				[
 					'no',
-					'No'
+					'Other_Number'
 				],
 				[
 					'othernumber',
@@ -5301,7 +5301,7 @@ module.exports = {
 				],
 				[
 					'p',
-					'P'
+					'Punctuation'
 				],
 				[
 					'punctuation',
@@ -5313,7 +5313,7 @@ module.exports = {
 				],
 				[
 					'pc',
-					'Pc'
+					'Connector_Punctuation'
 				],
 				[
 					'connectorpunctuation',
@@ -5321,7 +5321,7 @@ module.exports = {
 				],
 				[
 					'pd',
-					'Pd'
+					'Dash_Punctuation'
 				],
 				[
 					'dashpunctuation',
@@ -5329,7 +5329,7 @@ module.exports = {
 				],
 				[
 					'pe',
-					'Pe'
+					'Close_Punctuation'
 				],
 				[
 					'closepunctuation',
@@ -5337,7 +5337,7 @@ module.exports = {
 				],
 				[
 					'pf',
-					'Pf'
+					'Final_Punctuation'
 				],
 				[
 					'finalpunctuation',
@@ -5345,7 +5345,7 @@ module.exports = {
 				],
 				[
 					'pi',
-					'Pi'
+					'Initial_Punctuation'
 				],
 				[
 					'initialpunctuation',
@@ -5353,7 +5353,7 @@ module.exports = {
 				],
 				[
 					'po',
-					'Po'
+					'Other_Punctuation'
 				],
 				[
 					'otherpunctuation',
@@ -5361,7 +5361,7 @@ module.exports = {
 				],
 				[
 					'ps',
-					'Ps'
+					'Open_Punctuation'
 				],
 				[
 					'openpunctuation',
@@ -5369,7 +5369,7 @@ module.exports = {
 				],
 				[
 					's',
-					'S'
+					'Symbol'
 				],
 				[
 					'symbol',
@@ -5377,7 +5377,7 @@ module.exports = {
 				],
 				[
 					'sc',
-					'Sc'
+					'Currency_Symbol'
 				],
 				[
 					'currencysymbol',
@@ -5385,7 +5385,7 @@ module.exports = {
 				],
 				[
 					'sk',
-					'Sk'
+					'Modifier_Symbol'
 				],
 				[
 					'modifiersymbol',
@@ -5393,7 +5393,7 @@ module.exports = {
 				],
 				[
 					'sm',
-					'Sm'
+					'Math_Symbol'
 				],
 				[
 					'mathsymbol',
@@ -5401,7 +5401,7 @@ module.exports = {
 				],
 				[
 					'so',
-					'So'
+					'Other_Symbol'
 				],
 				[
 					'othersymbol',
@@ -5409,7 +5409,7 @@ module.exports = {
 				],
 				[
 					'z',
-					'Z'
+					'Separator'
 				],
 				[
 					'separator',
@@ -5417,7 +5417,7 @@ module.exports = {
 				],
 				[
 					'zl',
-					'Zl'
+					'Line_Separator'
 				],
 				[
 					'lineseparator',
@@ -5425,7 +5425,7 @@ module.exports = {
 				],
 				[
 					'zp',
-					'Zp'
+					'Paragraph_Separator'
 				],
 				[
 					'paragraphseparator',
@@ -5433,7 +5433,7 @@ module.exports = {
 				],
 				[
 					'zs',
-					'Zs'
+					'Space_Separator'
 				],
 				[
 					'spaceseparator',

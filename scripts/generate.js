@@ -52,7 +52,8 @@ for (const [propertyAlias, canonicalProperty] of propertyAliases.entries()) {
 	if (canonicalProperty == 'General_Category') {
 		for (const category of unicode.categories) {
 			const normalizedCategory = normalize(category);
-			aliasToValue.set(normalizedCategory, category);
+			const canonicalCategory = valueAliasMappings.get(category);
+			aliasToValue.set(normalizedCategory, canonicalCategory);
 		}
 	}
 	// Add normalized “aliases” for known scripts.

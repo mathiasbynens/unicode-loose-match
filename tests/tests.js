@@ -19,6 +19,14 @@ test(t => {
 		{ 'property': 'Block' }
 	);
 	t.deepEqual(
+		matchLoosely('gc', 'L'),
+		{ 'property': 'General_Category', 'value': 'Letter' }
+	);
+	t.deepEqual(
+		matchLoosely('gc', 'Lu'),
+		{ 'property': 'General_Category', 'value': 'Uppercase_Letter' }
+	);
+	t.deepEqual(
 		matchLoosely('scx', 'greek'),
 		{ 'property': 'Script_Extensions', 'value': 'Greek' }
 	);
