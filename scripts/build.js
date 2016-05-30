@@ -1,6 +1,6 @@
 'use strict';
 
-const unicode = require('unicode-8.0.0');
+const binaryProperties = require('unicode-8.0.0').Binary_Property;
 const propertyAliases = require('unicode-property-aliases');
 const valueAliases = require('unicode-property-value-aliases');
 const jsesc = require('jsesc');
@@ -50,7 +50,7 @@ for (const [propertyAlias, canonicalProperty] of propertyAliases.entries()) {
 }
 
 // Add normalized “aliases” for binary properties.
-for (const property of unicode.properties) {
+for (const property of binaryProperties) {
 	const normalizedProperty = normalize(property);
 	aliasToProperty.set(normalizedProperty, property);
 }

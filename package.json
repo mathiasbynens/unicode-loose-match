@@ -28,13 +28,13 @@
   "bugs": "https://github.com/mathiasbynens/unicode-loose-match/issues",
   "devDependencies": {
     "ava": "*",
-    "jsesc": "^1.2.0",
-    "unicode-8.0.0": "^0.3.1",
-    "unicode-property-aliases": "^1.0.0",
-    "unicode-property-value-aliases": "^1.0.2"
+    "jsesc": "^2.0.0",
+    "unicode-8.0.0": "^0.6.0",
+    "unicode-property-aliases": "^1.0.1",
+    "unicode-property-value-aliases": "^1.0.4"
   },
   "scripts": {
-    "build": "node scripts/generate.js",
+    "build": "node scripts/build.js",
     "test": "ava ./tests"
   }
 }
