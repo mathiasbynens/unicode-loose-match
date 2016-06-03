@@ -208,7 +208,7 @@ module.exports = {
 		['radical', 'Radical'],
 		['sd', 'Soft_Dotted'],
 		['softdotted', 'Soft_Dotted'],
-		['sterm', 'STerm'],
+		['sterm', 'Sentence_Terminal'],
 		['sentenceterminal', 'Sentence_Terminal'],
 		['term', 'Terminal_Punctuation'],
 		['terminalpunctuation', 'Terminal_Punctuation'],
