@@ -235,7 +235,8 @@ module.exports = {
 		['expandsonnfkd', 'Expands_On_NFKD'],
 		['ascii', 'ASCII'],
 		['any', 'Any'],
-		['assigned', 'Assigned']
+		['assigned', 'Assigned'],
+		['regionalindicator', 'Regional_Indicator']
 	]),
 	'propertyToValueAliases': new Map([
 		['Jamo_Short_Name', new Map([

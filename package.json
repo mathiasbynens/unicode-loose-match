@@ -28,10 +28,10 @@
   "bugs": "https://github.com/mathiasbynens/unicode-loose-match/issues",
   "devDependencies": {
     "ava": "*",
-    "jsesc": "^2.2.0",
-    "unicode-9.0.0": "^0.7.0",
-    "unicode-property-aliases": "^1.1.0",
-    "unicode-property-value-aliases": "^1.2.1"
+    "jsesc": "^2.5.1",
+    "unicode-10.0.0": "^0.7.4",
+    "unicode-property-aliases": "^1.1.1",
+    "unicode-property-value-aliases": "^3.0.0"
   },
   "scripts": {
     "build": "node scripts/build.js",
