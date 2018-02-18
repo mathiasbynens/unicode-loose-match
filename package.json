@@ -31,7 +31,7 @@
     "jsesc": "^2.5.1",
     "unicode-10.0.0": "^0.7.4",
     "unicode-property-aliases": "^1.1.1",
-    "unicode-property-value-aliases": "^3.0.0"
+    "unicode-property-value-aliases": "^3.1.0"
   },
   "scripts": {
     "build": "node scripts/build.js",
