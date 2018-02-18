@@ -115,6 +115,8 @@ module.exports = {
 		['numerictype', 'Numeric_Type'],
 		['sb', 'Sentence_Break'],
 		['sentencebreak', 'Sentence_Break'],
+		['vo', 'Vertical_Orientation'],
+		['verticalorientation', 'Vertical_Orientation'],
 		['wb', 'Word_Break'],
 		['wordbreak', 'Word_Break'],
 		['ahex', 'ASCII_Hex_Digit'],
@@ -206,6 +208,8 @@ module.exports = {
 		['qmark', 'Quotation_Mark'],
 		['quotationmark', 'Quotation_Mark'],
 		['radical', 'Radical'],
+		['ri', 'Regional_Indicator'],
+		['regionalindicator', 'Regional_Indicator'],
 		['sd', 'Soft_Dotted'],
 		['softdotted', 'Soft_Dotted'],
 		['sterm', 'Sentence_Terminal'],
@@ -235,8 +239,7 @@ module.exports = {
 		['expandsonnfkd', 'Expands_On_NFKD'],
 		['ascii', 'ASCII'],
 		['any', 'Any'],
-		['assigned', 'Assigned'],
-		['regionalindicator', 'Regional_Indicator']
+		['assigned', 'Assigned']
 	]),
 	'propertyToValueAliases': new Map([
 		['Jamo_Short_Name', new Map([
@@ -1937,6 +1940,16 @@ module.exports = {
 			['xx', 'Other'],
 			['other', 'Other']
 		])],
+		['Vertical_Orientation', new Map([
+			['r', 'Rotated'],
+			['rotated', 'Rotated'],
+			['tr', 'Transformed_Rotated'],
+			['transformedrotated', 'Transformed_Rotated'],
+			['tu', 'Transformed_Upright'],
+			['transformedupright', 'Transformed_Upright'],
+			['u', 'Upright'],
+			['upright', 'Upright']
+		])],
 		['Word_Break', new Map([
 			['cr', 'CR'],
 			['dq', 'Double_Quote'],
@@ -2440,6 +2453,16 @@ module.exports = {
 			['true', 'Yes']
 		])],
 		['Radical', new Map([
+			['n', 'No'],
+			['no', 'No'],
+			['f', 'No'],
+			['false', 'No'],
+			['y', 'Yes'],
+			['yes', 'Yes'],
+			['t', 'Yes'],
+			['true', 'Yes']
+		])],
+		['Regional_Indicator', new Map([
 			['n', 'No'],
 			['no', 'No'],
 			['f', 'No'],
