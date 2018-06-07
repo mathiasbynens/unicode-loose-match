@@ -241,7 +241,13 @@ module.exports = {
 		['expandsonnfkd', 'Expands_On_NFKD'],
 		['ascii', 'ASCII'],
 		['any', 'Any'],
-		['assigned', 'Assigned']
+		['assigned', 'Assigned'],
+		['emoji', 'Emoji'],
+		['emojicomponent', 'Emoji_Component'],
+		['emojimodifier', 'Emoji_Modifier'],
+		['emojimodifierbase', 'Emoji_Modifier_Base'],
+		['emojipresentation', 'Emoji_Presentation'],
+		['extendedpictographic', 'Extended_Pictographic']
 	]),
 	'propertyToValueAliases': new Map([
 		['Jamo_Short_Name', new Map([
@@ -1636,8 +1642,6 @@ module.exports = {
 			['glueafterzwj', 'Glue_After_Zwj'],
 			['l', 'L'],
 			['lf', 'LF'],
-			['linkc', 'LinkingConsonant'],
-			['linkingconsonant', 'LinkingConsonant'],
 			['lv', 'LV'],
 			['lvt', 'LVT'],
 			['pp', 'Prepend'],
@@ -1648,7 +1652,6 @@ module.exports = {
 			['spacingmark', 'SpacingMark'],
 			['t', 'T'],
 			['v', 'V'],
-			['virama', 'Virama'],
 			['xx', 'Other'],
 			['other', 'Other'],
 			['zwj', 'ZWJ']

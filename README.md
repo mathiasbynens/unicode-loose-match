@@ -2,7 +2,7 @@
 
 unicode-loose-match is a JavaScript implementation of [UAX44-LM3](http://unicode.org/reports/tr44/tr44-16.html#Matching_Symbolic), i.e. the loose matching algorithm for symbolic values as defined in the Unicode Standard.
 
-It’s based on [the data for Unicode v10.0.0](https://github.com/mathiasbynens/unicode-10.0.0) and recognizes [property aliases](https://github.com/mathiasbynens/unicode-property-aliases) and [property value aliases](https://github.com/mathiasbynens/unicode-property-value-aliases).
+It’s based on [the data for Unicode v11.0.0](https://github.com/mathiasbynens/unicode-11.0.0) and recognizes [property aliases](https://github.com/mathiasbynens/unicode-property-aliases) and [property value aliases](https://github.com/mathiasbynens/unicode-property-value-aliases).
 
 ## Installation
 
