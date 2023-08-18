@@ -1,7 +1,7 @@
-import test from 'ava';
-import matchLoosely from '../index.js';
+const test = require('ava');
+const matchLoosely = require('../index.js');
 
-test(t => {
+test('unicode-loose-match', t => {
 	t.deepEqual(
 		matchLoosely('blk', 'latin_extended_a'),
 		{ 'property': 'Block', 'value': 'Latin_Extended_A' }
@@ -68,6 +68,6 @@ test(t => {
 	);
 	t.throws(
 		() => matchLoosely('unknown property', 'unknown value'),
-		Error
+		{ instanceOf: Error }
 	);
 });
