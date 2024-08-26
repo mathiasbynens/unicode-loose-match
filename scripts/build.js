@@ -1,6 +1,6 @@
 'use strict';
 
-const binaryProperties = require('@unicode/unicode-15.1.0').Binary_Property;
+const binaryProperties = require('@unicode/unicode-16.0.0').Binary_Property;
 const propertyAliases = require('unicode-property-aliases');
 const valueAliases = require('unicode-property-value-aliases');
 const jsesc = require('jsesc');
