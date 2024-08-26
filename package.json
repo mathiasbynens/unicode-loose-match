@@ -27,11 +27,11 @@
   },
   "bugs": "https://github.com/mathiasbynens/unicode-loose-match/issues",
   "devDependencies": {
-    "@unicode/unicode-15.1.0": "^1.4.2",
+    "@unicode/unicode-15.1.0": "^1.5.2",
     "ava": "*",
     "jsesc": "^3.0.2",
-    "unicode-property-aliases": "^1.6.1",
-    "unicode-property-value-aliases": "^3.7.1"
+    "unicode-property-aliases": "^1.6.2",
+    "unicode-property-value-aliases": "^3.8.0"
   },
   "scripts": {
     "build": "node scripts/build.js",
