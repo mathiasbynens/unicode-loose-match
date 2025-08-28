@@ -1,17 +1,19 @@
 'use strict';
 
-const binaryProperties = require('@unicode/unicode-16.0.0').Binary_Property;
+const binaryProperties = require('@unicode/unicode-17.0.0').Binary_Property;
 const propertyAliases = require('unicode-property-aliases');
 const valueAliases = require('unicode-property-value-aliases');
 const jsesc = require('jsesc');
 
 const sortMapByKey = (map) => {
-	return new Map(Array.from(map).sort((a, b) => {
-		return a[0].localeCompare(b[0], 'en');
-	}));
+	return new Map(
+		Array.from(map).sort((a, b) => {
+			return a[0].localeCompare(b[0], 'en');
+		}),
+	);
 };
 
-const normalize = function(string) {
+const normalize = function (string) {
 	const normalized = string
 		// Remove case distinctions.
 		.toLowerCase()
@@ -51,7 +53,7 @@ for (const [propertyAlias, canonicalProperty] of propertyAliases.entries()) {
 	if (aliasToValue.size) {
 		propertyToValueAliases.set(canonicalProperty, sortMapByKey(aliasToValue));
 	} else {
-		console.log(`No property value aliases for ${ canonicalProperty }`);
+		console.log(`No property value aliases for ${canonicalProperty}`);
 	}
 }
 
@@ -65,5 +67,5 @@ const object = {
 	aliasToProperty: sortMapByKey(aliasToProperty),
 	propertyToValueAliases: sortMapByKey(propertyToValueAliases),
 };
-const output = `module.exports = ${ jsesc(object, { 'compact': false }) };\n`;
+const output = `module.exports = ${jsesc(object, { compact: false })};\n`;
 require('fs').writeFileSync('data/mappings.js', output);
