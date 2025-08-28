@@ -27,7 +27,7 @@
 	},
 	"bugs": "https://github.com/mathiasbynens/unicode-loose-match/issues",
 	"devDependencies": {
-		"@unicode/unicode-17.0.0": "^0.0.0",
+		"@unicode/unicode-17.0.0": "^1.6.9",
 		"ava": "*",
 		"jsesc": "^3.0.2",
 		"unicode-property-aliases": "^2.1.0",
