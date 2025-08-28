@@ -1,4 +1,4 @@
-# unicode-loose-match
+# unicode-loose-match [![unicode-loose-match on npm](https://img.shields.io/npm/v/unicode-loose-match)](https://www.npmjs.com/package/unicode-loose-match)
 
 unicode-loose-match is a JavaScript implementation of [UAX44-LM3](http://unicode.org/reports/tr44/tr44-16.html#Matching_Symbolic), i.e. the loose matching algorithm for symbolic values as defined in the Unicode Standard.
 
