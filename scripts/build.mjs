@@ -1,5 +1,5 @@
 import { writeFile } from 'node:fs/promises';
-import unicode from '@unicode/unicode-17.0.0';
+import unicode from '@unicode/unicode-18.0.0';
 import propertyAliases from 'unicode-property-aliases';
 import valueAliases from 'unicode-property-value-aliases';
 import jsesc from 'jsesc';
