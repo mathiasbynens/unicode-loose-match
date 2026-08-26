@@ -12,10 +12,10 @@ To use _unicode-loose-match_ programmatically, install it as a dependency via [n
 $ npm install unicode-loose-match
 ```
 
-Then, `require` it:
+Then, `import` it:
 
 ```js
-const matchLoosely = require('unicode-loose-match');
+import matchLoosely from 'unicode-loose-match';
 ```
 
 ## API

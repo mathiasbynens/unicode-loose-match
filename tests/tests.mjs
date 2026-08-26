@@ -1,73 +1,75 @@
-const test = require('ava');
-const matchLoosely = require('../index.js');
+import assert from 'node:assert/strict';
+import test from 'node:test';
+import matchLoosely from '../index.mjs';
 
-test('unicode-loose-match', t => {
-	t.deepEqual(
+test('unicode-loose-match', () => {
+	assert.deepEqual(
 		matchLoosely('blk', 'latin_extended_a'),
 		{ 'property': 'Block', 'value': 'Latin_Extended_A' }
 	);
-	t.deepEqual(
+	assert.deepEqual(
 		matchLoosely('block', 'Arabic_PF_B'),
 		{ 'property': 'Block', 'value': 'Arabic_Presentation_Forms_B' }
 	);
-	t.deepEqual(
+	assert.deepEqual(
 		matchLoosely('block', 'arabic p-fb'),
 		{ 'property': 'Block', 'value': 'Arabic_Presentation_Forms_B' }
 	);
-	t.deepEqual(
+	assert.deepEqual(
 		matchLoosely('block', 'unknown value'),
 		{ 'property': 'Block' }
 	);
-	t.deepEqual(
+	assert.deepEqual(
 		matchLoosely('gc', 'L'),
 		{ 'property': 'General_Category', 'value': 'Letter' }
 	);
-	t.deepEqual(
+	assert.deepEqual(
 		matchLoosely('gc', 'Lu'),
 		{ 'property': 'General_Category', 'value': 'Uppercase_Letter' }
 	);
-	t.deepEqual(
+	assert.deepEqual(
 		matchLoosely('sc', 'greek'),
 		{ 'property': 'Script', 'value': 'Greek' }
 	);
-	t.deepEqual(
+	assert.deepEqual(
 		matchLoosely('scx', 'greek'),
 		{ 'property': 'Script_Extensions', 'value': 'Greek' }
 	);
-	t.deepEqual(
+	assert.deepEqual(
 		matchLoosely('sc', 'Xpeo'),
 		{ 'property': 'Script', 'value': 'Old_Persian' }
 	);
-	t.deepEqual(
+	assert.deepEqual(
 		matchLoosely('scx', 'Xpeo'),
 		{ 'property': 'Script_Extensions', 'value': 'Old_Persian' }
 	);
-	t.deepEqual(
+	assert.deepEqual(
 		matchLoosely('isc'),
 		{ 'property': 'ISO_Comment' }
 	);
-	t.deepEqual(
+	assert.deepEqual(
 		matchLoosely('ce'),
 		{ 'property': 'Composition_Exclusion' }
 	);
-	t.deepEqual(
+	assert.deepEqual(
 		matchLoosely('compositionexclusion'),
 		{ 'property': 'Composition_Exclusion' }
 	);
-	t.deepEqual(
+	assert.deepEqual(
 		matchLoosely('bidimirrored'),
 		{ 'property': 'Bidi_Mirrored' }
 	);
-	t.deepEqual(
+	assert.deepEqual(
 		matchLoosely('bidim'),
 		{ 'property': 'Bidi_Mirrored' }
 	);
-	t.deepEqual(
+	assert.deepEqual(
 		matchLoosely('compex'),
 		{ 'property': 'Full_Composition_Exclusion' }
 	);
-	t.throws(
+	assert.throws(
 		() => matchLoosely('unknown property', 'unknown value'),
-		{ instanceOf: Error }
+		Error
 	);
 });
+

@@ -1,10 +1,6 @@
-'use strict';
+import { aliasToProperty, propertyToValueAliases } from './data/mappings.mjs';
 
-const mappings = require('./data/mappings.js');
-const aliasToProperty = mappings.aliasToProperty;
-const propertyToValueAliases = mappings.propertyToValueAliases;
-
-const normalize = function(string) {
+const normalize = (string) => {
 	const normalized = string
 		// Remove case distinctions.
 		.toLowerCase()
@@ -15,7 +11,7 @@ const normalize = function(string) {
 	return normalized;
 };
 
-const matchLoosely = function(property, value) {
+const matchLoosely = (property, value) => {
 	const normalizedProperty = normalize(property);
 	const canonicalProperty = aliasToProperty.get(normalizedProperty);
 	if (!canonicalProperty) {
@@ -37,4 +33,5 @@ const matchLoosely = function(property, value) {
 	return result;
 };
 
-module.exports = matchLoosely;
+export default matchLoosely;
+

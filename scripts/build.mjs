@@ -1,9 +1,10 @@
-'use strict';
+import { writeFile } from 'node:fs/promises';
+import unicode from '@unicode/unicode-17.0.0';
+import propertyAliases from 'unicode-property-aliases';
+import valueAliases from 'unicode-property-value-aliases';
+import jsesc from 'jsesc';
 
-const binaryProperties = require('@unicode/unicode-17.0.0').Binary_Property;
-const propertyAliases = require('unicode-property-aliases');
-const valueAliases = require('unicode-property-value-aliases');
-const jsesc = require('jsesc');
+const binaryProperties = unicode.Binary_Property;
 
 const sortMapByKey = (map) => {
 	return new Map(
@@ -13,7 +14,7 @@ const sortMapByKey = (map) => {
 	);
 };
 
-const normalize = function (string) {
+const normalize = (string) => {
 	const normalized = string
 		// Remove case distinctions.
 		.toLowerCase()
@@ -39,7 +40,7 @@ for (const [propertyAlias, canonicalProperty] of propertyAliases.entries()) {
 	aliasToProperty.set(normalizedCanonicalProperty, canonicalProperty);
 	// Handle the property value aliases for this property.
 	const valueAliasMappings = valueAliases.get(canonicalProperty);
-	// { property value alias => canonical property value }
+	// Map property value alias to canonical property value.
 	const aliasToValue = new Map();
 	if (valueAliasMappings) {
 		for (const [valueAlias, canonicalValue] of valueAliasMappings.entries()) {
@@ -49,11 +50,11 @@ for (const [propertyAlias, canonicalProperty] of propertyAliases.entries()) {
 			aliasToValue.set(normalizedCanonicalValue, canonicalValue);
 		}
 	}
-	// { canonical property => { property value alias => canonical property value } }
+	// Map canonical property to property value alias mappings.
 	if (aliasToValue.size) {
 		propertyToValueAliases.set(canonicalProperty, sortMapByKey(aliasToValue));
 	} else {
-		console.log(`No property value aliases for ${canonicalProperty}`);
+		console.log(`No property value aliases for ${canonicalProperty}.`);
 	}
 }
 
@@ -63,9 +64,6 @@ for (const property of binaryProperties) {
 	aliasToProperty.set(normalizedProperty, property);
 }
 
-const object = {
-	aliasToProperty: sortMapByKey(aliasToProperty),
-	propertyToValueAliases: sortMapByKey(propertyToValueAliases),
-};
-const output = `module.exports = ${jsesc(object, { compact: false })};\n`;
-require('fs').writeFileSync('data/mappings.js', output);
+const header = '// Generated using `npm run build`. Do not edit!\n';
+const output = `${header}export const aliasToProperty = ${jsesc(sortMapByKey(aliasToProperty), { compact: false })};\n\nexport const propertyToValueAliases = ${jsesc(sortMapByKey(propertyToValueAliases), { compact: false })};\n`;
+await writeFile('data/mappings.mjs', output);
